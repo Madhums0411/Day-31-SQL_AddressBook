@@ -55,3 +55,7 @@ select * from AddressBook
 update AddressBook set type='Family' where FirstName in ('Madhu')
 update AddressBook set type='Friend' where FirstName in ('Monika')
 select * from AddressBook
+
+
+----UC10 Number of contact persons by type
+select type, count(type) as totalcount from AddressBook group by type
