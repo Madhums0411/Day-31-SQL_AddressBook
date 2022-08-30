@@ -25,3 +25,11 @@ Insert into AddressBook values
 ('Monu','MS','Hosadurga','Chitradurga','Karnataka','577521','9945597444','dhg@gmail.com')
 
 Select * from AddressBook
+
+----UC4 Edit existing person detail using name
+
+update AddressBook set FirstName='Monika',LastName='S',Address='Bansihalli',Email='monu@gmail.com' where FirstName='Monu'
+Select * from AddressBook
+
+
+
