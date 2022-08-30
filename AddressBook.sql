@@ -59,3 +59,9 @@ select * from AddressBook
 
 ----UC10 Number of contact persons by type
 select type, count(type) as totalcount from AddressBook group by type
+
+----UC11 Add person to Both Friend and Family
+insert into AddressBook values
+('Bindu','MS','Holalkere','Chitradurga','Karnataka','577526','9880912843','abc@gmail.com','Family'),
+('Bindu','MS','Holalkere','Chitradurga','Karnataka','577526','9880912843','abc@gmail.com','Friend');
+select * from AddressBook
