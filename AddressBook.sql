@@ -32,4 +32,10 @@ update AddressBook set FirstName='Monika',LastName='S',Address='Bansihalli',Emai
 Select * from AddressBook
 
 
+----UC5 Delete person using person name
+delete from AddressBook where FirstName ='Bindu';
+Select * from AddressBook
+
+
+
 
