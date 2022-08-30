@@ -48,3 +48,10 @@ select count(City) from AddressBook
 select FirstName from AddressBook order by city
 select * from AddressBook order by city,FirstName
 
+
+----UC9 Identify each addressbook by name and type
+alter table AddressBook add type varchar(100) default 'family' not null
+select * from AddressBook
+update AddressBook set type='Family' where FirstName in ('Madhu')
+update AddressBook set type='Friend' where FirstName in ('Monika')
+select * from AddressBook
