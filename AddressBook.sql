@@ -40,3 +40,6 @@ Select * from AddressBook
 select FirstName from AddressBook where city = 'Chitradurga' or State='Karnataka'
 
 
+----UC7 Ability to Understand size of Addressbook by City or state(indicate size of count)
+select count(state) from AddressBook
+select count(City) from AddressBook
