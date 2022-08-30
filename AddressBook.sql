@@ -16,3 +16,12 @@ PhoneNumber varchar(50) not null,
 Email varchar(50) not null
 )
 Select * from AddressBook
+
+----UC3 Add contact details to Address book table
+
+Insert into AddressBook values
+('Madhu','MS','Ramagiri','Chitradurga','Karnataka','577539','9632355684','xyz@gmail.com')
+('Bindu','MS','Holalkere','Chitradurga','Karnataka','577526','9880912843','abc@gmail.com'),
+('Monu','MS','Hosadurga','Chitradurga','Karnataka','577521','9945597444','dhg@gmail.com')
+
+Select * from AddressBook
